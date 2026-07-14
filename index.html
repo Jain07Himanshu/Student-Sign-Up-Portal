@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT LEARNING PORTAL</title>
+
+    <!-- GOOGLE FONT (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- INTERNAL CSS -->
+    <style>
+        :root {
+            --bg-main: #FFE5EC;
+            --bg-card: #FFC2D1;
+            --bg-secondary: #FFB3C6;
+            --btn-primary: #FF8FAB;
+            --accent: #FB6F92;
+            --text-main: #1F1F1F;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            font-family: 'Poppins', sans-serif;
+            color: var(--text-main);
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            margin-right: 15px;
+            color: white;
+            background: var(--btn-primary);
+            padding: 8px 14px;
+            border-radius: 6px;
+        }
+
+        a:hover {
+            background: var(--accent);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            background: var(--bg-card);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        caption {
+            margin-bottom: 15px;
+            font-size: 18px;
+            font-weight: 600;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: var(--bg-secondary);
+        }
+
+        tr:nth-child(even) {
+            background-color: #FFEFF3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>STUDENT LEARNING PORTAL</h1>
+
+    <a href="/home.html"><b>Home</b></a>
+    <a href="/sign up.html"><b>Sign Up</b></a>
+
+    <table>
+        <caption><u>Road Map For Students</u></caption>
+
+        <thead>
+            <tr>
+                <th>Serial No.</th>
+                <th>Title</th>
+                <th>Content Learning</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>HTML Tutorial for Beginners</td>
+                <td>HTML</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>CSS Tutorial for Beginners</td>
+                <td>CSS</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Building AMAZON Clone for Beginners</td>
+                <td>HTML and CSS</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Complete Git and GitHub Tutorial for Beginners</td>
+                <td>Git and GitHub</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>JavaScript Full Course (L1)</td>
+                <td>JavaScript</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
