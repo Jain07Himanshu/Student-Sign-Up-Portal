@@ -31,7 +31,7 @@ Student-Sign-Up-Portal/
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Student-Sign-Up-Portal.git
+git clone https://github.com/Jain07Himanshu/Student-Sign-Up-Portal.git
 ```
 
 2. Open the project folder.
